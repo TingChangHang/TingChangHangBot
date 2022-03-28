@@ -1,4 +1,5 @@
-# Mirai-MCPingPlugin
+# TingChangHangBot
+Forked from MX233/Mirai-MCPingPlugin 
 用Mirai机器人获取MC服务器信息并发送
 
 # 本项目开发时本人水平有欠缺，堆了代码屎山，请等待重构
