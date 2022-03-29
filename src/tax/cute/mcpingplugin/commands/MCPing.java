@@ -58,8 +58,10 @@ public class MCPing extends CommandModel {
             CommandSenderFriend senderFriend = (CommandSenderFriend) sender;
             Friend friend = senderFriend.getFriend();
             if (args[0].contentToString().equalsIgnoreCase("/mcping") || args.length != 1 || args[0].contentToString().isEmpty()) {
+                if (args[0].contentToString() != 127.0.0.1) {
                 friend.sendMessage(Util.MENU);
                 return;
+                }
             }
 
             String host = args[0].contentToString();
